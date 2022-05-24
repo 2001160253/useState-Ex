@@ -1,5 +1,5 @@
 .bg {
-  background-image: url(./asset/img/background.jpg);
+  background-image: url(./asset/img/bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -17,12 +17,15 @@
 .GlassesUse {
   width: 147px !important;
   top: 78px;
-  left: 693px;
+  left: 920px;
   position: absolute;
 }
 .sample {
   margin-top: 30px;
   position: relative;
+}
+.modelLeft {
+  margin-right: 200px;
 }
 .sample img {
   width: 250px;
@@ -30,7 +33,7 @@
 .product {
   display: flex;
   width: 60%;
-  background-color: #fff;
+  /* background-color: #fff; */
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   margin: auto;

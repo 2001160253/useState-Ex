@@ -1,0 +1,25 @@
+/* .container {
+  background-color: blanchedalmond;
+} */
+.col {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: #cadaaf;
+  column-gap: 20px;
+  row-gap: 20px;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  padding: 20px;
+}
+.item {
+  background-color: #fff;
+}
+.item img {
+  width: 200px;
+  height: auto;
+}
+.dollar {
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+}

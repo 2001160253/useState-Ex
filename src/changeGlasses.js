@@ -31,7 +31,12 @@ class ChangeGlasses extends Component {
           <div className={style.header}>Try Glasses Online</div>
 
           <div className={style.sample}>
-            <img src={model} alt="Glasses"></img>
+            <img src={model} alt="Glasses" className={style.modelLeft}></img>
+            <img
+              src={model}
+              alt="Glasses"
+              classNametyle={style.modelRight}
+            ></img>
             <img
               src={this.state.img}
               alt="Glasses"
