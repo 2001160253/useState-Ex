@@ -1,0 +1,55 @@
+.bg {
+  background-image: url(./asset/img/background.jpg);
+}
+.container::before {
+  content: "";
+}
+.container::after {
+  content: "";
+}
+.header {
+  font-size: 40px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #959191;
+  filter: grayscale(1);
+}
+.GlassesUse {
+  width: 147px !important;
+  top: 78px;
+  left: 670px;
+  position: absolute;
+}
+.sample {
+  margin-top: 30px;
+  position: relative;
+}
+.sample img {
+  width: 250px;
+}
+.product {
+  display: flex;
+  width: 60%;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  margin: auto;
+  margin-top: 30px;
+  filter: unset;
+}
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  margin: 0 5px;
+}
+.item img {
+  width: 100%;
+  height: 55px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+}
+.GlassesActive {
+  border: 2px solid red !important;
+}
