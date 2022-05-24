@@ -17,11 +17,7 @@ class ChangeGlasses extends Component {
   };
 
   selectGlasses = (img) => {
-    this.setState = {
-      imgUse: img,
-    };
-    console.log(img);
-    console.log(this.state);
+    this.setState({ img: img });
   };
 
   addClass = (...classes) => {
@@ -50,7 +46,7 @@ class ChangeGlasses extends Component {
               }}
               className={this.addClass(style.item, style.itemV1)}
             >
-              <img src={v1} alt="Glasses" className={style.GlassesActive}></img>
+              <img src={v1} alt="Glasses"></img>
             </div>
 
             <div
